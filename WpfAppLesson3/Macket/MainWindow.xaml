@@ -1,0 +1,80 @@
+﻿<Window x:Class="Macket.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Macket"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Hidden">
+        <DockPanel  x:Name="startDock" LastChildFill="false">
+
+        <DockPanel DockPanel.Dock="Top" Height="20" LastChildFill="False" Background="Black" >
+
+            <Button Width="20" DockPanel.Dock="Left" Background="Blue"  >1</Button>
+            <Button Width="Auto" DockPanel.Dock="Left" Background="Black" Foreground="White" >Button 2</Button>
+            <Button Width="Auto" DockPanel.Dock="Left" Background="Black" Foreground="White" >Button 3</Button>
+            <Border Width="20" Height="20" DockPanel.Dock="Right" Background="Red" CornerRadius="180" ></Border>
+            <Button Width="20" DockPanel.Dock="Right" Background="Black" Foreground="White" >?</Button>
+            <Border Width="20" Height="20" DockPanel.Dock="Right" Background="White" CornerRadius="180" ></Border>
+            <Border Margin="2,0,2,0" Width="20" Height="20" DockPanel.Dock="Right" Background="Blue" CornerRadius="180" ></Border>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Top" Height="70" LastChildFill="False">
+            <Border Margin="10" Width="40" Height="40" DockPanel.Dock="Left" Background="Blue">
+                <TextBlock Padding="15" Foreground="White">SS</TextBlock>
+            </Border>
+            <StackPanel>
+                <TextBlock Margin="0,20,0,0">Sitio de echibition</TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <Button Height="20" Width="20" DockPanel.Dock="Left">1</Button>
+                    <Button Height="20" Width="20" DockPanel.Dock="Left">2</Button>
+                    <Button Height="20" Width="20" DockPanel.Dock="Left">3</Button>
+                    <Button Height="20" Width="20" DockPanel.Dock="Left">4</Button>
+
+                </StackPanel>
+            </StackPanel>
+            <Label DockPanel.Dock="Right" Margin="10" Height="25" Width="100" Background="Gray">Serch</Label>
+        </DockPanel>
+        <DockPanel Background="LightGray" DockPanel.Dock="Top" Height="29" LastChildFill="False">
+            <TextBlock Margin="5">+ New \/</TextBlock>
+            <Button DockPanel.Dock="Right" Width="50" Background="Blue">Edit</Button>
+            <Button DockPanel.Dock="Right" Width="55" >Somthing</Button>
+        </DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+                <Border  BorderBrush="Gray" BorderThickness="5" Background="Blue" Grid.ColumnSpan="2"></Border>
+            <Border BorderBrush="Gray" BorderThickness="5" Grid.Row="0" Grid.Column="2" Background="Black"></Border>
+                <Border BorderBrush="Gray" BorderThickness="5" Grid.Row="1" Grid.Column="0" Background="Black" ></Border>
+                <Border BorderBrush="Gray" BorderThickness="5" Grid.Column="1" Grid.Row="1" Background="Blue" Grid.ColumnSpan="2"></Border>
+                <Border BorderBrush="Gray" BorderThickness="5" Grid.Column="0" Grid.Row="2" Background="Blue" Grid.ColumnSpan="2"></Border>
+                <Border BorderBrush="Gray" BorderThickness="5" Grid.Row="2" Grid.Column="2" Background="Black" ></Border>
+
+
+
+        </Grid>
+
+            <UniformGrid Margin="0,10" Height="150" DockPanel.Dock="Top" Columns="3" Rows="2">
+                <Border Background="Red" BorderBrush="Gray" BorderThickness="3" ></Border>
+                <Border Background="Black" BorderBrush="Gray" BorderThickness="3" ></Border>
+                <Border Background="Green" BorderBrush="Gray" BorderThickness="3" ></Border>
+                <Border Background="Orange" BorderBrush="Gray" BorderThickness="3" ></Border>
+                <Border Background="Brown" BorderBrush="Gray" BorderThickness="3" ></Border>
+                <Border Background="Olive" BorderBrush="Gray" BorderThickness="3" ></Border>
+                
+            </UniformGrid>
+
+            <DockPanel DockPanel.Dock="Top" Background="Gray" LastChildFill="False" >
+                <Label  BorderBrush="Red" BorderThickness="5" Width="100" DockPanel.Dock="Right" Margin="0,20,10,10" >Hello yusername</Label>
+            </DockPanel>
+    </DockPanel>
+    </ScrollViewer>
+</Window>

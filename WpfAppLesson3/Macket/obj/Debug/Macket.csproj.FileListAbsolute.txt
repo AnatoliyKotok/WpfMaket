@@ -1,0 +1,15 @@
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\bin\Debug\Macket.exe.config
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\bin\Debug\Macket.exe
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\bin\Debug\Macket.pdb
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket.csprojAssemblyReference.cache
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\MainWindow.g.cs
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\App.g.cs
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket_MarkupCompile.cache
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket_MarkupCompile.lref
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\MainWindow.baml
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket.g.resources
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket.Properties.Resources.resources
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket.csproj.GenerateResource.cache
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket.csproj.CoreCompileInputs.cache
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket.exe
+C:\Users\Anatoliy\source\repos\WpfAppLesson3\Macket\obj\Debug\Macket.pdb
